@@ -1,0 +1,54 @@
+.comment {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Roboto Mono', monospace;
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid  #DCDCDC;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 12px;
+  margin: 0px;
+}
+
+.stars {
+  display: flex;
+  width: 152px;
+  height: 24px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 16px;
+  margin: 0px;
+}
+
+.date {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 11px;
+  letter-spacing: 0.3px;
+  padding-bottom: 12px;
+  margin: 0px;
+}
+
+.text {
+  width: 100%;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0px;
+}
