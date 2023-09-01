@@ -1,5 +1,6 @@
 import React from 'react';
 import Comment from './components/Comment.jsx';
+import RelatedProducts from './components/RelatedProd.jsx';
 
 function App() {
   const reviewData = {
@@ -10,7 +11,11 @@ function App() {
   };
 
   return (
-    <Comment reviewData={reviewData} />
+    <div>
+      <RelatedProducts />
+      <Comment reviewData={reviewData} />
+    </div>
+    
   );
 }
 

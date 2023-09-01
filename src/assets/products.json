@@ -1,0 +1,91 @@
+[{
+    "id": 1,
+    "name": "Pc de escritorio Apple Imac 24' A5 Processor 128gb",
+    "description": "Description for Product 1",
+    "price": "14,349.99",
+    "score": 4,
+    "image": "/img/product.jfif",
+    "discount": "11"
+},
+{
+    "id": 2,
+    "name": "Pc de escritorio Apple Imac 24' A5 Processor 128gb",
+    "description": "Description for Product 2",
+    "price": "17,129.99",
+    "score": 1,
+    "image": "/img/product.jfif",
+    "discount": "10"
+},
+{
+    "id": 3,
+    "name": "Pc de escritorio Apple Imac 24' A5 Processor 128gb",
+    "description": "Description for Product 3",
+    "price": "32,929.99",
+    "score": 4,
+    "image": "/img/product.jfif",
+    "discount": "16"
+},
+{
+    "id": 4,
+    "name": "Pc de escritorio Apple Imac 24' A5 Processor 128gb5 Processor 128gb5 Processor 128gb",
+    "description": "Description for Product 4",
+    "price": "15,459.99",
+    "score": 2,
+    "image": "/img/product.jfif",
+    "discount": "10"
+},
+{
+    "id": 5,
+    "name": "Pc de escritorio Apple Imac 24' A5 Processor 128gb",
+    "description": "Description for Product 5",
+    "price": "12,899.99",
+    "score": 5,
+    "image": "/img/product.jfif",
+    "discount": "10"
+},
+{
+    "id": 6,
+    "name": "Pc de escritorio Apple Imac 24' A5 Processor 128gb",
+    "description": "Description for Product 5",
+    "price": "12,899.99",
+    "score": 5,
+    "image": "/img/product.jfif",
+    "discount": "10"
+},
+{
+    "id": 7,
+    "name": "Pc de escritorio Apple Imac 24' A5 Processor 128gb",
+    "description": "Description for Product 5",
+    "price": "12,899.99",
+    "score": 0,
+    "image": "/img/product.jfif",
+    "discount": "20"
+},
+{
+    "id": 8,
+    "name": "Pc de escritorio Apple Imac 24' A5 Processor 128gb",
+    "description": "Description for Product 5",
+    "price": "12,899.99",
+    "score": 3,
+    "image": "./img/product.jfif",
+    "discount": "57"
+},
+{
+    "id": 9,
+    "name": "Pc de escritorio Apple Imac 24' A5 Processor 128gb",
+    "description": "Description for Product 5",
+    "price": "12,899.99",
+    "score": 5,
+    "image": "/img/product.jfif",
+    "discount": "10"
+},
+{
+    "id": 10,
+    "name": "Pc de escritorio Apple Imac 24' A5 Processor 128gb",
+    "description": "Description for Product 5",
+    "price": "12,899.99",
+    "score": 4,
+    "image": "/img/product.jfif",
+    "discount": "10"
+}
+]
