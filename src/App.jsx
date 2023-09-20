@@ -2,6 +2,9 @@ import React from 'react';
 import Comment from './components/Comment.jsx';
 import RelatedProducts from './components/RelatedProd.jsx';
 import Stars from './components/Stars.jsx';
+import Accordion from './components/Accordion.jsx';
+import Table from './components/Table.jsx';
+import productDetails from './assets/details.json';
 
 function App() {
   const reviewData = {
@@ -16,8 +19,10 @@ function App() {
       <RelatedProducts />
       <Comment reviewData={reviewData} />
       <Stars reviewData={reviewData} />
+      <Accordion title="Generales">
+        <Table rows={productDetails} />
+      </Accordion>
     </div>
-    
   );
 }
 
