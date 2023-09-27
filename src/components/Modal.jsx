@@ -5,7 +5,7 @@ const ModalCheckout = ({ visible, children }) => {
   const modalRef = useRef(null);
   useEffect(() => {
     if (!visible) {
-      modalRef.current.style.display = "block";
+      modalRef.current.style.display = "flex";
       return;
     }
 

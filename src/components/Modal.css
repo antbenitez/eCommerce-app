@@ -1,5 +1,7 @@
 .modal {
   display: none;
+  justify-content: center;
+  align-content: center;
   position: fixed;
   z-index: 1;
   width: 100%;
