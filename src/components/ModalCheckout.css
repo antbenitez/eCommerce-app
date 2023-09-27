@@ -1,0 +1,20 @@
+.modal-content {
+  max-width: 80%;
+}
+
+.modal-content .close-button {
+  position: absolute;
+  top: 10;
+  right: 10;
+  font-size: 14px;
+}
+
+.modal-content .title {
+  font-weight: 700;
+  font-size: 32px;
+  font-family: "Roboto Mono";
+}
+
+.articles-count {
+  color: linear-gradient(90deg, #30cfd0, #330867);
+}
