@@ -1,20 +1,20 @@
 import { useEffect, useRef } from "react";
 import './Modal.css';
 
-const ModalCheckout = ({ visible, children }) => {
+const Modal = ({ visible, children }) => {
   const modalRef = useRef(null);
-  useEffect(() => {
-    if (!visible) {
-      modalRef.current.style.display = "flex";
-      return;
-    }
 
-    modalRef.current.style.display = "none";
+  useEffect(() => {
+    modalRef.current.style.display = visible ? "flex" : "none";
   }, [visible]);
 
-  return <div className="modal" ref={modalRef}>
-    {children}
-  </div>;
-};
+  return (
+    <div className="modal" ref={modalRef}>
+      <div className="modal-content">
+        {children}
+      </div>
+    </div>
+  )
+}
 
-export default ModalCheckout;
+export default Modal;
