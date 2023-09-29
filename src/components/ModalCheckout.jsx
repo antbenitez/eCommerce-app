@@ -1,14 +1,21 @@
+import { useState } from "react";
+import './ModalCheckout.css';
 import Modal from "./Modal";
 
-const ModalCheckout = ({visible, products}) => {
+const ModalCheckout = ({products}) => {
+    const [visible, setVisible] = useState(false);
+
+    const toggle = () => {
+        setVisible(!visible);
+    }
 
     return (
-        <Modal visible={visible}> 
-            <section className="modal-content">
-                <div className="title" > Añadiste <span className="articles-count">{products.lenght} artículo(s)</span> a tu carrito </div>
-                <div className="close-button"> x </div>
-            </section>
-        </Modal>
+        <div>
+            <button onClick={toggle} > Abrir modal </button>
+            <Modal visible={visible}>
+                <h2 className="title" > Añadiste <span className="articles-count"> {products.length} artículo(s)</span> a tu carrito </h2>
+            </Modal>
+        </div>
     )
 }
 

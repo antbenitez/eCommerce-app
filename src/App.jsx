@@ -5,6 +5,7 @@ import Stars from './components/Stars.jsx';
 import Accordion from './components/Accordion.jsx';
 import Table from './components/Table.jsx';
 import productDetails from './assets/details.json';
+import ModalCheckout from './components/ModalCheckout.jsx';
 
 function App() {
   const reviewData = {
@@ -22,6 +23,7 @@ function App() {
       <Accordion title="Generales">
         <Table rows={productDetails} />
       </Accordion>
+      <ModalCheckout products={[]}/>
     </div>
   );
 }
