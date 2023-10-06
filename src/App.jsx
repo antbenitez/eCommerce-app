@@ -6,6 +6,7 @@ import Accordion from './components/Accordion.jsx';
 import Table from './components/Table.jsx';
 import productDetails from './assets/details.json';
 import QuantitySelector from './components/QuantitySelector.jsx';
+import Button from './components/Button.jsx';
 
 function App() {
   const reviewData = {
@@ -24,8 +25,20 @@ function App() {
         <Table rows={productDetails} />
       </Accordion>
       <QuantitySelector />
-      <QuantitySelector value="30" />
-      <QuantitySelector value="100" />
+      <QuantitySelector value={30} />
+      <QuantitySelector value={100} />
+      <Button type="primary">Comprar ahora</Button>
+      <Button type="primary" disabled={true}>
+        Comprar ahora
+      </Button>
+      <Button type="secondary">Comprar ahora</Button>
+      <Button type="secondary" disabled={true}>
+        Comprar ahora
+      </Button>
+      <Button type="tertiary">Comprar ahora</Button>
+      <Button type="tertiary" disabled={true}>
+        Comprar ahora
+      </Button>
     </div>
   );
 }
