@@ -1,0 +1,77 @@
+button {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 16px 24px;
+  display: inline-flex;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+}
+
+button img {
+  padding-left: 8px;
+  width: 24px;
+}
+
+button img:only-child {
+  padding-left: 0;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background: linear-gradient(90deg, #30cfd0, #330867);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #64dadb, #66488e);
+}
+
+.btn-primary:focus,
+.btn-primary:active {
+  background: linear-gradient(90deg, #24999b, #260a4f);
+}
+
+.btn-primary:disabled {
+  color: #ffffff;
+  background: #dedede;
+}
+
+.btn-secondary {
+  border: 2px solid transparent;
+  background: linear-gradient(#fff, #fff) padding-box, linear-gradient(45deg, #30cfd0, #330867) border-box;
+  padding: 14px 22px;
+}
+
+.btn-secondary:hover {
+  background: linear-gradient(#fff, #fff) padding-box, linear-gradient(90deg, #64dadb, #66488e) border-box;
+}
+
+.btn-secondary:focus,
+.btn-secondary:active {
+  background: linear-gradient(#fff, #fff) padding-box, linear-gradient(90deg, #24999b, #260a4f) border-box;
+}
+
+.btn-secondary:disabled {
+  color: #dedede;
+  background: linear-gradient(#fff, #fff) padding-box, linear-gradient(45deg, #dedede, #dedede) border-box;
+}
+
+.btn-tertiary {
+  font-weight: 500;
+}
+
+.btn-tertiary:hover {
+  color: #404040;
+}
+
+.btn-tertiary:focus,
+.btn-tertiary:active {
+  text-decoration-line: underline;
+}
+
+.btn-tertiary:disabled {
+  color: #dedede;
+  text-decoration-line: none;
+}
