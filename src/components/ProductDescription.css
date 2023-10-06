@@ -1,0 +1,58 @@
+#container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Mono'
+}
+
+#container *{
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+#Title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    line-height: 40px;
+}
+
+#PriceSection{
+    display: flex;
+    align-items: center;
+}
+
+#PriceSection p{
+    margin: 0px;
+    margin-right: 12px;
+}
+
+#price{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#discountedPrice{
+    color: grey;
+    text-decoration:line-through;
+    text-decoration-color: red;
+    font-size: 24px;
+}
+
+#discount{
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+}
+
+#Availability{
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+}
+
+#Description {
+    font-size: 16px;
+    line-height: 22px;
+}
