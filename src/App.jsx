@@ -20,12 +20,12 @@ function App() {
       <RelatedProducts />
       <Comment reviewData={reviewData} />
       <Stars reviewData={reviewData} />
-      <Accordion title="Generales">
+      <Accordion title='Generales'>
         <Table rows={productDetails} />
       </Accordion>
       <QuantitySelector />
-      <QuantitySelector value="30" />
-      <QuantitySelector value="100" />
+      <QuantitySelector value='30' />
+      <QuantitySelector value='100' />
     </div>
   );
 }
