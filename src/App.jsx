@@ -2,6 +2,7 @@ import React from 'react';
 import Comment from './components/Comment.jsx';
 import RelatedProducts from './components/RelatedProd.jsx';
 import Stars from './components/Stars.jsx';
+import Breadcrumbs from './components/Breadcrumbs/Breadcrumbs.jsx';
 
 function App() {
   const reviewData = {
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <div>
+      <Breadcrumbs />
       <RelatedProducts />
       <Comment reviewData={reviewData} />
       <Stars reviewData={reviewData} />
