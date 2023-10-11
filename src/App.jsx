@@ -8,6 +8,7 @@ import productDetails from './assets/details.json';
 import QuantitySelector from './components/QuantitySelector.jsx';
 import Button from './components/Button.jsx';
 import PromotionsBanner from './components/PromotionsBanner.jsx'
+import Breadcrumbs from './components/Breadcrumbs/Breadcrumbs.jsx';
 
 function App() {
   const reviewData = {
@@ -26,6 +27,7 @@ function App() {
 
   return (
     <div>
+      <Breadcrumbs />
       <RelatedProducts />
       <Comment reviewData={reviewData} />
       <Stars reviewData={reviewData} />
