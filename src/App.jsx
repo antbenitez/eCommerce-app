@@ -7,6 +7,7 @@ import Table from './components/Table.jsx';
 import productDetails from './assets/details.json';
 import QuantitySelector from './components/QuantitySelector.jsx';
 import Button from './components/Button.jsx';
+import PromotionsBanner from './components/PromotionsBanner.jsx'
 import Breadcrumbs from './components/Breadcrumbs/Breadcrumbs.jsx';
 
 function App() {
@@ -16,6 +17,13 @@ function App() {
     date: '18/09/22',
     text: 'Funciona bastante rápida y confiable, de inicio un pequeño problema con drivers, pero ya solucionado después de una visita al fabricante para su habilitación.',
   };
+
+  const promotionsBannerData = {
+    percentage: 50 + "%",
+    text: "de descuento ingresando el código de promo: ",
+    promoCode: "HOTSALE23MX",
+    icon: "star-empty"
+  }
 
   return (
     <div>
@@ -41,6 +49,7 @@ function App() {
       <Button type="tertiary" disabled={true}>
         Comprar ahora
       </Button>
+      <PromotionsBanner promotionsBannerData={promotionsBannerData} />
     </div>
   );
 }
