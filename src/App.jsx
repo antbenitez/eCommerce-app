@@ -4,6 +4,7 @@ import RelatedProducts from "./components/RelatedProd/RelatedProd.jsx";
 import Stars from "./components/Stars/Stars.jsx";
 import Accordion from "./components/Accordion/Accordion.jsx";
 import Table from "./components/Table/Table.jsx";
+import PickList from "./components/PickList/PickList.jsx";
 import productDetails from "./assets/details.json";
 import QuantitySelector from "./components/QuantitySelector/QuantitySelector.jsx";
 import Button from "./components/Button/Button.jsx";
@@ -25,6 +26,11 @@ function App() {
     icon: "star-empty",
   };
 
+  const pickListData = {
+    options: ["1", "2", "3", "4"],
+    helpText: "Help Text",
+  };
+
   return (
     <div>
       <Breadcrumbs />
@@ -34,6 +40,7 @@ function App() {
       <Accordion title="Generales">
         <Table rows={productDetails} />
       </Accordion>
+      <PickList {...pickListData}></PickList>
       <QuantitySelector />
       <QuantitySelector value={30} />
       <QuantitySelector value={100} />
