@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --secondary-white: #ffffff;
+  --secondary-light-gray-50: rgba(222, 222, 222, 0.5);
+  --secondary-black: #000000;
+}
+body {
+  font-family: "Roboto Mono", monospace;
+}

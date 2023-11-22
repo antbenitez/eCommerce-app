@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 import Comment from "./components/Comment/Comment.jsx";
 import RelatedProducts from "./components/RelatedProd/RelatedProd.jsx";
 import Stars from "./components/Stars/Stars.jsx";
