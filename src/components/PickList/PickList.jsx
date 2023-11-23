@@ -9,7 +9,6 @@ const DEFAULTOBJECT = [
   },
 ];
 const PickList = ({ options, helpText, placeholder, label = null }) => {
-  /**TODO: Use the placeholder prop to refactor code and not use hardcode indexes */
   const [open, setOpen] = useState(false);
   const [allOptions, setAllOptions] = useState([
     Object.keys(DEFAULTOBJECT),
