@@ -6,8 +6,15 @@
 :root {
   --secondary-white: #ffffff;
   --secondary-light-gray-50: rgba(222, 222, 222, 0.5);
+  --primary-morpheus-den-gradient: linear-gradient(
+    90deg,
+    #30cfd0 0%,
+    #330867 100%
+  );
   --secondary-black: #000000;
+  --default-background: #fcfcfc;
 }
 body {
   font-family: "Roboto Mono", monospace;
+  background-color: var(--default-background, #fcfcfc);
 }

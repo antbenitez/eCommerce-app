@@ -28,8 +28,10 @@ function App() {
   };
 
   const pickListData = {
-    options: ["1", "2", "3", "4"],
+    options: ["Canadá", "Europa", "Inglaterra", "México"],
     helpText: "Help Text",
+    placeholder: "Select your country",
+    label: "Countries",
   };
 
   return (
@@ -41,6 +43,7 @@ function App() {
       <Accordion title="Generales">
         <Table rows={productDetails} />
       </Accordion>
+      <br />
       <PickList {...pickListData}></PickList>
       <QuantitySelector />
       <QuantitySelector value={30} />
