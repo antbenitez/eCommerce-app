@@ -1,0 +1,157 @@
+.wrapper {
+  position: relative;
+  width: 343px;
+  height: 71px;
+  font-family: "Roboto Mono", monospace;
+}
+.wrapper .help-text-container {
+  margin-left: 1rem;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+}
+
+.picklist-label {
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 300;
+  left: 1rem;
+  margin-bottom: 0.5rem;
+  top: -0.5rem;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  gap: 8px;
+  line-height: 11px;
+}
+
+.picklist-label::after {
+  content: " ";
+  background-color: var(--default-background, #fcfcfc);
+  width: 100%;
+  height: 13px;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  z-index: -1;
+}
+
+.wrapper .picklist-container {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  line-height: 45px;
+  cursor: pointer;
+  background: transparent;
+  padding: 0;
+  & ul.picklist-closed {
+    position: relative;
+    padding: 0 10px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    & li {
+      display: block;
+      &:first-child a {
+        display: block;
+        font-size: 1.6rem;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      &:first-child:after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 16px;
+        font-size: 1.2rem;
+        color: #2267b9;
+        padding-right: 10px;
+      }
+    }
+  }
+  & a {
+    display: none;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-size: 16px;
+    font-style: normal;
+    color: var(--secondary-black, #000);
+  }
+  & .picklist-done-icon {
+    display: none;
+  }
+}
+/* styles for the dropdown open */
+.wrapper div.div-is-visible ul {
+  height: initial;
+  & li {
+    position: relative;
+    & a {
+      display: block;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      margin-right: 50px;
+      font-weight: 400;
+      font-size: 1.5rem;
+      font-size: 16px;
+      font-style: normal;
+      border-bottom: 2px solid #fff;
+    }
+    &:last-child {
+      margin-bottom: 10px;
+    }
+  }
+  & li.checked > img.picklist-done-icon {
+    display: block;
+    position: absolute;
+    right: 16px;
+    top: 10px;
+  }
+}
+
+.wrapper ul.picklist-opened {
+  position: relative;
+  padding: 0 10px;
+  background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(90deg, #30cfd0, #330867) border-box;
+  border-radius: 8px;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 4px;
+  & li {
+    display: block;
+    &:first-child a {
+      display: block;
+      font-size: 1.6rem;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    &:first-child:after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 16px;
+      font-size: 1.2rem;
+      color: #000;
+      padding-right: 10px;
+    }
+  }
+}
+.opened {
+  display: none;
+}
+
+.wrapper ul.picklist-opened li > .picklist-arrow-icon {
+  transform: rotate(180deg);
+}
+
+li > .picklist-arrow-icon {
+  transition-duration: 100ms;
+  transition-timing-function: ease;
+  transition-property: transform;
+  position: absolute;
+  right: 16px;
+  top: 10px;
+}

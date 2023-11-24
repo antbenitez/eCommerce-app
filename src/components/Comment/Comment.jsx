@@ -1,6 +1,6 @@
-import React from 'react';
-import './Comment-styles.css';
-import '../assets/fonts.css';
+import React from "react";
+import "./Comment.css";
+import "../../assets/fonts.css";
 
 function Comment({ reviewData }) {
   const Stars = 5;
@@ -12,7 +12,9 @@ function Comment({ reviewData }) {
           {Array.from({ length: Stars }).map((_, index) => (
             <span
               key={index}
-              className={`icon-star ${index < reviewData.stars ? 'icon-star-full' : 'icon-star-empty'}`}
+              className={`icon-star ${
+                index < reviewData.stars ? "icon-star-full" : "icon-star-empty"
+              }`}
             ></span>
           ))}
         </div>
