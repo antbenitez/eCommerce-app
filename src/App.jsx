@@ -8,6 +8,7 @@ import productDetails from './assets/details.json';
 import QuantitySelector from './components/QuantitySelector.jsx';
 import Button from './components/Button.jsx';
 import Breadcrumbs from './components/Breadcrumbs/Breadcrumbs.jsx';
+import DropwdownMenu from './components/DropdownMenu/DropdownMenu.jsx';
 
 function App() {
   const reviewData = {
@@ -20,6 +21,7 @@ function App() {
   return (
     <div>
       <Breadcrumbs />
+      <DropwdownMenu />
       <RelatedProducts />
       <Comment reviewData={reviewData} />
       <Stars reviewData={reviewData} />
