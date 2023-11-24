@@ -1,9 +1,9 @@
 import { useState } from "react";
-import Remove from "../assets/remove.svg";
-import Add from "../assets/add.svg";
+import Remove from "../../assets/remove.svg";
+import Add from "../../assets/add.svg";
 import "./QuantitySelector.css";
-import Button from "./Button";
-import "./Button.css";
+import Button from "../Button/Button";
+import "../Button/Button.css";
 
 const QuantitySelector = ({ value }) => {
   const initialQuantity = value ? value : 0;
