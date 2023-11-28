@@ -12,6 +12,7 @@ import QuantitySelector from "./components/QuantitySelector/QuantitySelector.jsx
 import Button from "./components/Button/Button.jsx";
 import PromotionsBanner from "./components/PromotionsBanner/PromotionsBanner.jsx";
 import Breadcrumbs from "./components/Breadcrumbs/Breadcrumbs.jsx";
+import DropwdownMenu from './components/DropdownMenu/DropdownMenu.jsx';
 
 function App() {
   const reviewData = {
@@ -40,6 +41,7 @@ function App() {
 
       <Header user={{name: "Pedrito"}} checkout={{itemsCount: 2}}/>
       <Breadcrumbs />
+      <DropwdownMenu />
       <RelatedProducts />
       <Comment reviewData={reviewData} />
       <Stars reviewData={reviewData} />
