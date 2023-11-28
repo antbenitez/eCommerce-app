@@ -3,6 +3,13 @@
     --secondary-black: #000000;
 }
 
+button {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: white;
+}
+
 .header-container, .top-header, .top-container {
     display: flex;
     width: 100%;
