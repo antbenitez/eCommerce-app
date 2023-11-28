@@ -5,6 +5,7 @@ import Stars from './components/Stars.jsx';
 import Accordion from './components/Accordion.jsx';
 import Table from './components/Table.jsx';
 import productDetails from './assets/details.json';
+import Header from './components/Header.jsx';
 
 function App() {
   const reviewData = {
@@ -16,12 +17,13 @@ function App() {
 
   return (
     <div>
+      <Header user={{name: "Pedrito"}} checkout={{itemsCount: 2}}/>
       <RelatedProducts />
       <Comment reviewData={reviewData} />
       <Stars reviewData={reviewData} />
       <Accordion title="Generales">
         <Table rows={productDetails} />
-      </Accordion>
+      </Accordion >
     </div>
   );
 }
