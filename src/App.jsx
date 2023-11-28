@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Header from './components/Header.jsx';
 import Comment from "./components/Comment/Comment.jsx";
 import RelatedProducts from "./components/RelatedProd/RelatedProd.jsx";
 import Stars from "./components/Stars/Stars.jsx";
@@ -36,12 +37,15 @@ function App() {
 
   return (
     <div>
+
+      <Header user={{name: "Pedrito"}} checkout={{itemsCount: 2}}/>
       <Breadcrumbs />
       <RelatedProducts />
       <Comment reviewData={reviewData} />
       <Stars reviewData={reviewData} />
       <Accordion title="Generales">
         <Table rows={productDetails} />
+
       </Accordion>
       <br />
       <PickList {...pickListData}></PickList>
@@ -61,6 +65,7 @@ function App() {
         Comprar ahora
       </Button>
       <PromotionsBanner promotionsBannerData={promotionsBannerData} />
+        
     </div>
   );
 }

@@ -1,0 +1,14 @@
+<svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="01 Atoms / Icons / account_circle" clip-path="url(#clip0_803_2028)">
+<path id="Vector" d="M20.5 3.3335C11.3 3.3335 3.83337 10.8002 3.83337 20.0002C3.83337 29.2002 11.3 36.6668 20.5 36.6668C29.7 36.6668 37.1667 29.2002 37.1667 20.0002C37.1667 10.8002 29.7 3.3335 20.5 3.3335ZM20.5 8.3335C23.2667 8.3335 25.5 10.5668 25.5 13.3335C25.5 16.1002 23.2667 18.3335 20.5 18.3335C17.7334 18.3335 15.5 16.1002 15.5 13.3335C15.5 10.5668 17.7334 8.3335 20.5 8.3335ZM20.5 32.0002C16.3334 32.0002 12.65 29.8668 10.5 26.6335C10.55 23.3168 17.1667 21.5002 20.5 21.5002C23.8167 21.5002 30.45 23.3168 30.5 26.6335C28.35 29.8668 24.6667 32.0002 20.5 32.0002Z" fill="url(#paint0_linear_803_2028)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_803_2028" x1="3.83337" y1="20.0002" x2="37.1667" y2="20.0002" gradientUnits="userSpaceOnUse">
+<stop stop-color="#30CFD0"/>
+<stop offset="1" stop-color="#330867"/>
+</linearGradient>
+<clipPath id="clip0_803_2028">
+<rect width="40" height="40" fill="white" transform="translate(0.5)"/>
+</clipPath>
+</defs>
+</svg>
