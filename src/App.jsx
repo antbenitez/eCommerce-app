@@ -1,6 +1,6 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom"
-import ProductListPage from "./routes/ProductListPage";
+import ProductListPage from "./routes/ProductListPage/ProductListPage";
 
 function App() {
 
