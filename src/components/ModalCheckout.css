@@ -1,0 +1,9 @@
+.title {
+  font-weight: 700;
+  font-size: 32px;
+  font-family: "Roboto Mono";
+}
+
+.articles-count {
+  color: linear-gradient(90deg, #30cfd0, #330867);
+}
