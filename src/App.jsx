@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Header from './components/Header.jsx';
+import Header from './components/Header/Header.jsx';
 import Comment from "./components/Comment/Comment.jsx";
 import RelatedProducts from "./components/RelatedProd/RelatedProd.jsx";
 import Stars from "./components/Stars/Stars.jsx";
@@ -12,7 +12,6 @@ import QuantitySelector from "./components/QuantitySelector/QuantitySelector.jsx
 import Button from "./components/Button/Button.jsx";
 import PromotionsBanner from "./components/PromotionsBanner/PromotionsBanner.jsx";
 import Breadcrumbs from "./components/Breadcrumbs/Breadcrumbs.jsx";
-import Header from "./components/Header/Header";
 
 function App() {
   const reviewData = {
