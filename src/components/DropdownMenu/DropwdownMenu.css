@@ -1,0 +1,29 @@
+.dropDownMenu{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 148px;
+  padding-left: 39px;
+}
+
+.dropDownMenu:hover {
+  cursor: pointer;
+}
+
+.dropwDownArrow {
+  width: 24px;
+  height: 24px;
+}
+
+.dropDownMenu-title {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px;
+}
+
+.dropDownMenu-listItems {
+  display: none;
+}
