@@ -11,6 +11,7 @@ import QuantitySelector from "./components/QuantitySelector/QuantitySelector.jsx
 import Button from "./components/Button/Button.jsx";
 import PromotionsBanner from "./components/PromotionsBanner/PromotionsBanner.jsx";
 import Breadcrumbs from "./components/Breadcrumbs/Breadcrumbs.jsx";
+import Header from "./components/Header/Header";
 
 function App() {
   const reviewData = {
