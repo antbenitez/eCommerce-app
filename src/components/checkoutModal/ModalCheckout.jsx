@@ -1,6 +1,6 @@
 import { useState } from "react";
 import './ModalCheckout.css';
-import Modal from "./Modal";
+import Modal from "../Modal/Modal";
 
 const ModalCheckout = ({products}) => {
     const [visible, setVisible] = useState(false);
