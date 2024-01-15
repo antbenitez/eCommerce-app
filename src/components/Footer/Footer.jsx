@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='footer'>
         <div className='logo-container'>
-            <img src='../assets/Logo.svg' alt='Logo' />
+            <img src={'icons/Logo.svg'} alt='Logo' />
         </div>
         <div className='footer-sections'>
             <div className='first-container'>
@@ -29,21 +29,21 @@ const Footer = () => {
             <div className='third-container'>
                 <h1 className='section-title'>Sociales</h1>
                 <div className='socials-container'>
-                    <img src='../assets/Insta.svg' alt='Instagram' />
-                    <img src='../assets/TikTok.svg' alt='TikTok' />
+                    <img src={'icons/Insta.svg'} alt='Instagram' />
+                    <img src={'icons/TikTok.svg'} alt='TikTok' />
                 </div>
                 <h1 className='section-title'>Métodos de pago</h1>
                 <div className='cards-container'>
-                    <img src='../assets/Visa.svg' alt='Visa' />
-                    <img src='../assets/Mastercard.svg' alt='Mastercard' />
-                    <img src='../assets/DinersClub.svg' alt='DinersClub' />
-                    <img src='../assets/Amex.svg' alt='Amex' />
-                    <img src='../assets/PayPal.svg' alt='PayPal' />
+                    <img src={'icons/Visa.svg'} alt='Visa' />
+                    <img src={'icons/Mastercard.svg'} alt='Mastercard' />
+                    <img src={'icons/DinersClub.svg'} alt='DinersClub' />
+                    <img src={'icons/Amex.svg'} alt='Amex' />
+                    <img src={'icons/PayPal.svg'} alt='PayPal' />
                 </div>
                 <div className='security-container'>
-                    <img src='../assets/McAffe.svg' alt='McAffe' />
-                    <img src='../assets/Norton.svg' alt='Norton' />
-                    <img src='../assets/PayPalStamp.svg' alt='PayPal' />
+                    <img src={'icons/McAffe.svg'} alt='McAffe' />
+                    <img src={'icons/Norton.svg'} alt='Norton' />
+                    <img src={'icons/PayPalStamp.svg'} alt='PayPal' />
                 </div>
             </div>
         </div>

@@ -4,6 +4,7 @@ import RelatedProducts from "../../components/RelatedProd/RelatedProd.jsx";
 import Product from "../../components/Product/Product.jsx";
 import productsData from "../../assets/products.json";
 import "./ProductListPage.css"
+import Footer from "../../components/Footer/Footer.jsx";
 
 
 function ProductListPage() {
@@ -22,6 +23,7 @@ function ProductListPage() {
                 ></Product>
             ))}
             </div>
+            <Footer></Footer>
         </div>
     );
   }
