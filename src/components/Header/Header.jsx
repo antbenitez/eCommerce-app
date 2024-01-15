@@ -5,6 +5,7 @@ import accountCircleGradientIcon from "../../assets/icons/account_circle_gradien
 import quantiumLogoIcon from "../../assets/icons/quantium_logo.svg";
 import shoppingCartIcon from "../../assets/icons/shopping_cart.svg";
 import ellipseIcon from "../../assets/icons/ellipse.svg";
+import SearchBar from '../SearchBar/SearchBar';
 
 const Header = ({user = null, checkout = null}) => {
   return (
@@ -17,7 +18,7 @@ const Header = ({user = null, checkout = null}) => {
                     </a>
                 </div>
                 <div className='top-item-fill'>
-                    Search Component
+                    <SearchBar></SearchBar>
                 </div>
                 <div className='top-item-right'>
                     <a className={`account-item ${user ? 'logged' : 'anonymous'}`} tabIndex={0} onClick={() => console.log("Account")}>

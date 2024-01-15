@@ -1,7 +1,7 @@
 input {
     font-family: "Roboto Mono", monospace;
     height: 56px;
-    width: 343px;
+    width: 635px;
     border-width: 1px;
     border-radius: 8px;
     border-color: black;
@@ -17,4 +17,3 @@ input {
     display: inline-block;
 
 }
-

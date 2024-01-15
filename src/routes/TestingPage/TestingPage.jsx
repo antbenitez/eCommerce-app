@@ -1,12 +1,12 @@
-import TextInput from "../../components/TextInput/TextInput";
 import Button from "../../components/Button/Button"
+import SearchBar from "../../components/SearchBar/SearchBar";
+import Header from "../../components/Header/Header"
 
 
 function TestingPage() {
   return(
     <div>
-      <TextInput></TextInput>
-      <Button>dasdasdasda</Button>
+      <Header></Header>
     </div>
   )
 }
