@@ -2,7 +2,10 @@ import "./SearchBar.css"
 
 const SearchBar = () =>{
     return(
-        <input type="text" placeholder="Estoy buscando..."/>
+        <div id ='container'>
+            <input type="text" placeholder="Estoy buscando..."/>
+            <img id='icon' src={'icons/search.svg'}  />
+        </div>
     )
 }
 

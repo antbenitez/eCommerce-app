@@ -1,3 +1,17 @@
+#container{
+    height: 56px;
+    width: 635px;
+}
+
+#icon{
+    position: relative;
+    float: right;
+    height: 24px;
+    margin-right: 16px;
+    margin-top: 16px;
+    filter: invert(14%) sepia(26%) saturate(4062%) hue-rotate(246deg) brightness(101%) contrast(124%);
+}
+
 input {
     font-family: "Roboto Mono", monospace;
     height: 56px;
@@ -6,6 +20,8 @@ input {
     border-radius: 8px;
     border-color: black;
     padding: 10px;
+    position: absolute;
+    z-index: 0;
 }
 
 :focus-visible {
