@@ -1,0 +1,32 @@
+.navigation-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    bottom: 24px;
+}
+
+.navigation-arrow {
+    padding: 0;
+    width: 24px;
+    height: 24px;
+}
+
+.navigation-dot {
+    width: 16px;
+    height: 16px;
+    display: flex;
+}
+
+.navigation-dot svg {
+    width: 100%;
+    height: 100%;
+}
+
+.dot-white{
+    display: inline;
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border-radius: 100%;
+}

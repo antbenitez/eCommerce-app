@@ -1,0 +1,34 @@
+.carousel-container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.carousel-items {
+    width: 100%;
+}
+
+.item {
+    display: none;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: 50% 50%;
+}
+
+.item.active-item {
+    display: block;
+    animation: fadeVisibility 0.5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes fadeVisibility {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
